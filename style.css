@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ede7e3;
+}
+.header {
+  margin-top: 0%;
+  width: 100%;
+  padding: 10px 16px;
+  display: block;
+  background-color: #ede7e3;
+  position: fixed;
+}
+.logo {
+  height: 10vh;
+  margin-left: 10vw;
+}
+.title {
+  font-size: 4em;
+  margin-left: 17vw;
+  margin-top: -12vh;
+  color: #16697a;
+  font-family: "Bree Serif";
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #82c0cc;
+  width: 98%;
+  font-family: "Bree Serif";
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #16697a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.container-1 {
+  padding: 22vh 12vw 10vh 12vw;
+  display: flex;
+  justify-content: space-between;
+}
+.container-1 h4,
+.container-2 h4 {
+  font-size: 1em;
+  padding: 10px;
+  font-family: "Bree Serif";
+}
+.container-1 div,
+.container-2 div {
+  border: 1px #16697a solid;
+  border-radius: 10px;
+  padding: 0;
+  width: 24vw;
+  height: 70vh;
+}
+.container-1 p,
+.container-2 p {
+  font-size: 1em;
+  padding: 10px;
+  font-family: "Bree Serif";
+}
+.container-2 {
+  padding: 0 12vw 10vh 12vw;
+  display: flex;
+  justify-content: space-between;
+}
+.wash_dogs_image,
+.wash_dogs_video {
+  width: 24vw;
+  border-radius: 10px;
+  padding-top: 2px;
+}
+.footer {
+  position: relative;
+  height: 6vh;
+  width: 100%;
+  background-color: #82c0cc;
+}
+
+p.copyright {
+  position: absolute;
+  width: 100%;
+  line-height: 40px;
+  font-size: 1em;
+  text-align: center;
+  bottom: 0;
+}
